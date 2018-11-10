@@ -10,12 +10,18 @@ import { TabsPage } from '../pages/tabs/tabs';
 
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
+import { DepartmentgoalsPage } from '../pages/departmentgoals/departmentgoals';
+import { SubjectsPage } from '../pages/subjects/subjects';
+import { TeacherprofilePage } from '../pages/teacherprofile/teacherprofile';
 
 @NgModule({
   declarations: [
     MyApp,
     AboutPage,
     ContactPage,
+    DepartmentgoalsPage,
+    TeacherprofilePage,
+    SubjectsPage,
     HomePage,
     TabsPage
   ],
@@ -28,6 +34,9 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     MyApp,
     AboutPage,
     ContactPage,
+    DepartmentgoalsPage,
+    TeacherprofilePage,
+    SubjectsPage,
     HomePage,
     TabsPage
   ],
