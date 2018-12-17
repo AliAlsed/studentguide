@@ -13,6 +13,8 @@ import { SplashScreen } from '@ionic-native/splash-screen';
 import { DepartmentgoalsPage } from '../pages/departmentgoals/departmentgoals';
 import { SubjectsPage } from '../pages/subjects/subjects';
 import { TeacherprofilePage } from '../pages/teacherprofile/teacherprofile';
+import { FormsModule } from '@angular/forms';
+import { TeacherInfoPage } from '../pages/teacher-info/teacher-info';
 
 @NgModule({
   declarations: [
@@ -22,11 +24,13 @@ import { TeacherprofilePage } from '../pages/teacherprofile/teacherprofile';
     DepartmentgoalsPage,
     TeacherprofilePage,
     SubjectsPage,
+    TeacherInfoPage,
     HomePage,
     TabsPage
   ],
   imports: [
     BrowserModule,
+    FormsModule,
     IonicModule.forRoot(MyApp)
   ],
   bootstrap: [IonicApp],
@@ -36,6 +40,7 @@ import { TeacherprofilePage } from '../pages/teacherprofile/teacherprofile';
     ContactPage,
     DepartmentgoalsPage,
     TeacherprofilePage,
+    TeacherInfoPage,
     SubjectsPage,
     HomePage,
     TabsPage

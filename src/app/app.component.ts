@@ -12,7 +12,7 @@ import { TeacherprofilePage } from '../pages/teacherprofile/teacherprofile';
   templateUrl: 'app.html'
 })
 export class MyApp {
-  rootPage:any = DepartmentgoalsPage;
+  rootPage:any = HomePage;
   @ViewChild(Nav) nav: Nav;
   activePage:any;
   inactive:any;
@@ -25,6 +25,7 @@ export class MyApp {
       splashScreen.hide();
     });
     this.pages = [
+      { title: 'الصفحه الرئيسيه', component: HomePage},
       { title: 'اهداف القسم', component: DepartmentgoalsPage },
       { title: 'صفحه التدريسيين', component: TeacherprofilePage },
       { title: 'المواد الدراسيه', component: SubjectsPage },
